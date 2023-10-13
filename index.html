@@ -1,43 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlaza a tu archivo CSS si lo tienes -->
+    <meta charset="utf-8">
+    <title>Pixelarte - Somos el cambio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+	<link href="css/specialcss.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-    </header>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#acerca">Acerca de</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
 
-    <main>
-        <section id="inicio">
-            <h2>Sección de Inicio</h2>
-            <p>Bienvenido a mi página web. Aquí encontrarás información interesante.</p>
-        </section>
 
-        <section id="acerca">
-            <h2>Acerca de Mí</h2>
-            <p>Un poco sobre quién soy y lo que hago.</p>
-        </section>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme en contact@example.com.</p>
-        </section>
-    </main>
 
-    <footer>
-        <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
-    </footer>
+    <!-- Navbar Start -->
+	
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                          Pixelarte
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+                          <li><a href="meetings.html">Nosotros</a></li>
+                          <li class="scroll-to-section"><a href="#apply">Clientes</a></li>
+
+                          <li class="scroll-to-section"><a href="#courses">Productos</a></li> 
+                          <li class="scroll-to-section"><a href="#contact">Contacto</a></li> 
+                      </ul>        
+                      <a class="menu-trigger">
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+    <!-- Navbar End -->
+
+
+  <!-- ***** Main Banner Area Start ***** -->
+<section class="section main-banner" id="top" data-section="section1">
+    <div >
+
+<iframe id="bg-video" src="https://www.youtube.com/embed/EvLkFkz-Uv0?autoplay=1" title="BOBST AMBITION folder-gluers" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    </div>
+
+    <div class="video-overlay header-text">
+                <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="caption">
+                        <h6>Hello Students</h6>
+                        <h2>Welcome to Education</h2>
+                        <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
+                        <div class="main-button-red">
+                            <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+    <!-- Feature Start -->
+<!--========Cards========-->
+    <!-- Redes Sociales -->
+  <!-- Contenedor del botón flotante de redes sociales -->
+  <div class="floating-social-buttons " >
+	  
+	  <div class="v-line">
+		</div>
+	  	<a id="whatsappButton" href="https://www.facebook.com/tupagina" target="_blank" class="whatsapp-button btn social-networks__link " title="¡Cotiza con nosotros!">
+	  <i class="fab fa-whatsapp"></i>
+	</a>
+  
+	
+	
+	<a href="https://www.instagram.com/tuinstagram" target="_blank" class="btn social-networks__link" title="Síguenos en Instagram.">
+	  <i class="fab fa-instagram "></i>
+	</a>
+	  <a href="https://www.facebook.com/tupagina" target="_blank" class="btn social-networks__link" title="Síguenos en Facebook.">
+	  <i class="fab fa-facebook-f "></i>
+	</a>
+	  <div class="v-line">
+		</div>
+    <!-- Agrega más botones aquí según tus necesidades -->
+  </div>
+    <!-- Redes sociales -->
+	
+    <!-- Feature Start -->
+	<!-- Star Cards -->
+	        <!-- Copy the content below until next comment -->
+	</br>
+	<div class="container ">
+		            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="pxl-text">Nosotros</h1>
+                
+            </div>
+<div class="row m-auto">
+  <!-- Card 1 (visible en versión móvil) -->
+  <div class="col-md-8 col-lg-8 pb-3 wow slideInLeft" data-wow-delay="0.1s">
+    <div class="cpxl-1 card card-custom border-white border-0 flex-fill">
+                <div class="card-custom-img" style="background-image: url('img/QuienesSomos.jpg');"></div>
+          <div class=" card-custom-avatar d-flex" style="background-color: white !important;">
+				<i id="iconpxl" class="fas fa-users fa-3x" style="background-color: white !important;" alt="avatar"></i>
+			</div>
+          <div class="card-body" style="overflow-y: auto">
+            <h4 class="card-title pxl-text">¿Quiénes somos?</h4>
+            <p class="card-text">¡Hola! Somos PIXELARTE, una empresa dedicada a la producción gráfica de todo tipo de formatos. Nuestra especialidad son los ECOBOX, empaques ideales para tu producto. Contamos con un equipo capacitado en brindar un servicio de calidad, puntual y con garantía en todos los proyectos realizados.</p>
+          </div>
+          <div class="card-footer" style="background: inherit; border-color: transparent;" >
+			<p><i class="fa fa-check-circle text-primary me-3"></i>Cajas para alimentos</p>
+			<p><i class="fa fa-check-circle text-primary me-3"></i>Empaques pop corn</p>
+			
+			
+			<a class="pxl-text" href="about.html"><p><i class="fa fa-check-circle text-primary me-3"></i>y más...</p></a>
+          </div>
+    </div>
+  </div>
+
+
+  <!-- Cards 2 y 3 (ocultos en versión móvil) -->
+  <div id="hiddenCards" class="col-md-4 col-lg-4 pb-3 wow slideInLeft" data-wow-delay="0.1s">
+    <div class="cpxl-2 card mb-4 card-custom-2 border-white border-0">
+          <div class="card-body" style="background-color: rgba(255, 255, 255, 0.7); overflow-y: auto;">
+      <div class="custom-card-title">
+        <h4 class="card-title pxl-text">Misión <i class="fas fa-bullseye custom-icon"></i></h4>
+      </div>
+      <p class="card-text">En pixelarte tenemos la misión de empoderar a todas las empresas con empaques innovadores, ecológicos y personalizados que revolucionan la conexión con su público, al mismo tiempo que lideramos el camino hacia un futuro sostenible.</p>
+    </div>
+    </div>
+    <div class="cpxl-3 card mb-3 card-custom-2 border-white border-0">
+          <div class="card-body" style="background-color: rgba(255, 255, 255, 0.7); overflow-y: auto;">
+      <h4 class="card-title pxl-text"> Visión <i class="fas fa-eye"></i></h4>
+      <p class="card-text">Nos vemos como catalizadores de sueños y arquitectos de éxito, redefiniendo la relación entre los negocios de alimentos y sus socios de empaques. Pixelarte, siempre innovando, siempre sostenible, siempre revolucionando.</p>
+    </div>
+    </div>
+  </div>
+    <!-- Botón para mostrar el resto en versión móvil -->
+  <div class="col-md-12 mb-3 d-md-none">
+    <button id="showMoreButton" class="btn btn-primary">Más de nosotros</button>
+  </div>
+
+</div>
+</div>
+        <!-- Copy until here -->
+	<!-- Fin Cards -->
+
+    <!-- Prueba paper pin Start -->
+
+    <!-- Prueba paper pin End -->
+
+
+    <!-- Service Start -->
+    
+        <div id="Productos" class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="pxl-text">Nuestros productos</h1>
+                
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-1.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+						    <div class="service-icon">
+								<i class="fas fa-box fa-beat-on-hover fa-3x"></i>
+							</div>
+                            <h4 class="mb-3">Cajas</h4>
+                            <p>Cajas de cartón de alta calidad diseñadas para alimentos, con impresión a todo color y opciones de acabado personalizadas disponibles.</p>
+                            <a class="small fw-medium" href="project.html?filter=.first">Ver más<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-2.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fas fa-shopping-bag fa-beat-on-hover fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Bolsas</h4>
+                            <p>Bolsas versátiles para alimentos en una variedad de estilos y materiales, personalizables con diseño y opciones de asas.</p>
+                            <a class="small fw-medium" href="">Ver más<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-3.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fas fa-address-card fa-beat-on-hover fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Tarjetas</h4>
+                            <p>Tarjetas personales y de agradecimiento personalizadas y distintos acabados, incluyendo opciones de plastificado matte y brillante.</p>
+                            <a class="small fw-medium" href="">Ver más<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-4.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-paste fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Papelería</h4>
+                            <p>Papelería personalizada, papel manteca, portavasos, flyers y más, con opciones de diseño para satisfacer tus necesidades.</p>
+                            <a class="small fw-medium" href="">Ver más<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-tags fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Hangtags</h4>
+                            <p>Hangtags personalizados con acabado plastificado y diseños exclusivos para destacar la marca.</p>
+                            <a class="small fw-medium" href="">Ver más<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="position-relative p-4 pt-0">
+                            <div class="service-icon">
+                                <i class="fa fa-sticky-note fa-3x"></i>
+                            </div>
+                            <h4 class="mb-3">Stickers</h4>
+                            <p>Stickers de alta calidad que ofrecen una elección entre plastificado mate o brillante, con impresión offset para una nitidez excepcional.</p>
+                            <a class="small fw-medium" href="">Ver más<i class="fa fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    <!-- Service End -->
+	<!-- Service End -->
+	</br>
+	<div id="Clientes" class="container">
+		          <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="pxl-text">Nuestros Clientes</h1>
+                
+            </div>
+	
+  <div class="row d-flex ml-auto" style="float: right !important;" id="imageContainer">
+    <!-- Las imágenes se agregarán aquí -->
+  </div>
+</div>
+<!-- Service End -->
+   </br>
+
+	<div id="Contacto" class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+		<h1 class="pxl-text">Contáctanos</h1>
+                
+	</div>
+    <!-- Quote Start -->
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container quote px-lg-0">
+        <div class="row g-0 mx-lg-0">
+            <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="p-lg-5 pe-lg-0">
+                    <h4 class="pxl-text">¡Vamos a comunicarnos!</h4>
+
+                    <p class="mb-4 pb-2">Escríbenos sobre tu curiosidad o consulta acerca de nuestros productos, nos comunicaremos contigo en breve y te cotizaremos o resolveremos tus dudas, si lo necesitas te orientamos a elegir tus mejores opciones. En Pixelarte estamos para ayudarte.</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Nombre" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" class="form-control border-0" placeholder="Correo" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Teléfono" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select border-0" style="height: 55px;">
+                                    <option selected>Selecciona servicios</option>
+                                    <option value="1">Service 1</option>
+                                    <option value="2">Service 2</option>
+                                    <option value="3">Service 3</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control border-0" placeholder="Escribe tu mensaje..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn pxl-btn rounded-pill py-3 px-5" type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Quote End -->
+	<!-- Clientes start -->
+		
+	<!-- Clientes  End -->
+
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Testimonial</h6>
+                <h1 class="mb-4">What Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-img position-relative">
+                        <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                        <div class="btn-square bg-primary rounded-circle">
+                            <i class="fa fa-quote-left text-white"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+                        <h5 class="mb-1">Client Name</h5>
+                        <span class="fst-italic">Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms  Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Project Gallery</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/gallery-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                        <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+  <!--  <a href="https://www.instagram.com/tuinstagram" class="btn btn-lg btn btn-success btn-lg-square rounded-circle wspbtncotiza"><i class="fab fa-whatsapp"></i></a>-->
+	
+		
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+	
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+
+</script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+	<script src="js/pxljs.js"></script>
 </body>
+
 </html>
